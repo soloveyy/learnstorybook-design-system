@@ -3,9 +3,6 @@
 name: 'Chromatic'
 # The event that will trigger the action
 on: push
-runs:
-  using: 'node16'
-  main: 'main.js'
 # What the action will do
 jobs:
 
