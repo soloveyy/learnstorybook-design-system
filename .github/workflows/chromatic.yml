@@ -1,13 +1,14 @@
 
 # Name of our action
 name: 'Chromatic'
-runs:
-  using: 'node16'
+
 # The event that will trigger the action
 on: push
 
 # What the action will do
 jobs:
+runs:
+  using: 'node16'
   test:
     # The operating system it will run on
     runs-on: ubuntu-latest
